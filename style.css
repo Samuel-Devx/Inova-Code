@@ -1,26 +1,16 @@
-*{ 
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-}
+/* Estilos para telas grandes (desktop first) */
 .imgtop {
-    background-image: url(imagem/Backtop.png);
-    height: 100vh;
-    width: 102%;
+    background-image: url('imagem/Backtop.png');
+    height: 60vh;
+    width: 100%;
     background-size: cover;
-    margin-top : -8px ;
     background-position: top right;
-    
- 
-    
 }
 
-@media (max-width: 768px) {
-  .imgtop {
-    background-image: url('imagem/mobile1.png');
-    height: 60vh;
-  }
+/* Estilos para telas menores que 1000px (mobile) */
+@media (max-width: 1000px) {
+    .imgtop {
+        background-image: url('imagem/mobile1.png');
+        height: 100vh;
+    }
 }
