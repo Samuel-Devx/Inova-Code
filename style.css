@@ -1,16 +1,31 @@
-/* Estilos para telas grandes (desktop first) */
+
 .imgtop {
     background-image: url('imagem/Backtop.png');
-    height: 60vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top right;
+    background-size: cover; /* A imagem vai cobrir toda a seção */
+   /* Centraliza a imagem */
+    height: 100vh; /* Exemplo: altura de 100% da tela */
 }
 
-/* Estilos para telas menores que 1000px (mobile) */
-@media (max-width: 1000px) {
-    .imgtop {
-        background-image: url('imagem/mobile1.png');
-        height: 100vh;
+
+.gallery-item {
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: contain; /* A imagem inteira ficará visível */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center;
+}
+
+
+.banner {
+    background-image: url(imagem/mobile1.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+/* Sobrescreve para telas maiores que 768px (tablets e desktops) */
+@media (min-width: 768px) {
+    .banner {
+        background-image: url('imagem/Backtop.png');
+        height: 80vh;
     }
 }
