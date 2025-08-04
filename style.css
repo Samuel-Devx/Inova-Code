@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fascinate&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Pixelify+Sans:wght@400..700&family=Sriracha&display=swap');
+
 header {
     display: flex;
     flex-wrap: wrap; /* permite quebrar linha se precisar */
@@ -21,7 +23,8 @@ header {
 }
 
 .text-top h1 {
-    font-size: 5vw; /* responsivo com base na largura da tela */
+    font-size: 5vw; 
+    font-family: "Pixelify Sans", sans-serif;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
