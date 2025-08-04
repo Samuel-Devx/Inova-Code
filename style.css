@@ -1,18 +1,16 @@
 
 .imgtop {
     background-image: url('imagem/Backtop.png');
-    background-size: cover; /* A imagem vai cobrir toda a seção */
-   /* Centraliza a imagem */
-    height: 100vh; /* Exemplo: altura de 100% da tela */
+      background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 70em;
+    opacity: 90%;
+    padding-top: 4em;/
 }
 
 
-.gallery-item {
-    background-image: url('caminho/para/sua/imagem.jpg');
-    background-size: contain; /* A imagem inteira ficará visível */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-position: center;
-}
 
 
 .banner {
@@ -25,7 +23,7 @@
 /* Sobrescreve para telas maiores que 768px (tablets e desktops) */
 @media (min-width: 768px) {
     .banner {
-        background-image: url('imagem/Backtop.png');
+        background-image: url(imagem/mobile1.png);
         height: 80vh;
     }
 }
