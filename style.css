@@ -40,8 +40,18 @@ header {
 
 
 .sobre  {
-    margin-top: 30%;
+    margin-top: 10%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-}
+    
+ }
+
+ .sobre h1 {
+    font-size: 25px
+ }
+
+ .sobre p {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: serif;
+ }
