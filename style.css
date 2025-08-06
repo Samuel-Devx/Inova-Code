@@ -34,7 +34,7 @@ header {
 }
 
 .text-top h1 {
-    font-size: 5vw; 
+    font-size: 3em; 
     font-family: "Pixelify Sans", sans-serif;
     white-space: nowrap;
     overflow: hidden;
@@ -68,7 +68,7 @@ header {
  }
 
  main {
-    margin-top: 6em;
+    margin-top: 20em;
  }
 
  .tl-equipe {
@@ -86,7 +86,43 @@ header {
     margin: 50px;
     text-align: center;
     font-family: "Mozilla Text", sans-serif;
+    font-size: 18px;
  }
  .p-sobre {
     font-family: var(--fontprima);
+    font-weight: bolder;
  }
+
+ .tl-serviços {
+    text-align: center;
+    font-size: 25px;
+    
+ }
+ .div-fundo{
+    background-color: #21adadad;
+    height: 18em;
+    width: 100%;
+    margin: 10px 0 40px 0;
+    display: flex; 
+ }
+
+ .serviço {
+    background-color: #084545;
+    height: 230px;
+    margin: 17px;
+    border-radius: 13px;
+    color: white;
+    padding: 10px;
+    transition: all 0.5s ease;
+    font-size: 13px;
+ }
+
+  .serviço:hover {
+    transform: scale(1.1);
+  }
+
+  .img-servço {
+    width: 150px;
+    height: auto;
+    margin: auto;
+  }
