@@ -98,24 +98,31 @@ header {
     font-size: 25px;
     
  }
- .div-fundo{
+.div-fundo {
     background-color: #21adadad;
-    height: 18em;
+    height: auto; /* deixa a altura crescer conforme o conteúdo */
     width: 100%;
     margin: 10px 0 40px 0;
-    display: flex; 
- }
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar para outra linha */
+    justify-content: center; /* ou space-around/space-between */
+    gap: 20px; /* espaçamento entre os cards */
+    padding: 10px;
+}
 
- .serviço {
+.serviço {
     background-color: #084545;
-    height: 230px;
-    margin: 17px;
+    height: 400px;
+    width: 300px; /* ou % se preferir */
     border-radius: 13px;
     color: white;
     padding: 10px;
     transition: all 0.5s ease;
     font-size: 13px;
- }
+    flex-grow: 1;
+    flex-basis: 250px; /* base mínima do tamanho */
+}
+
 
   .serviço:hover {
     transform: scale(1.1);
