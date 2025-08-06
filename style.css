@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -102,13 +103,14 @@ header {
 .div-fundo {
     background-color: #21adadad;
     height: auto; /* deixa a altura crescer conforme o conteúdo */
-    width:98.6%  ;
-    margin: 10px 0px 40px 0;
+    width:90%  ;
+    margin: 10px auto 40px auto;
     display: flex;
-    flex-wrap: wrap; /* permite quebrar para outra linha */
-    justify-content: center; /* ou space-around/space-between */
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px; /* espaçamento entre os cards */
     padding: 10px;
+    border-radius: 15PX;
 }
 
 .serviço {
@@ -148,6 +150,7 @@ header {
   }
   .text-sv p {
     font-family: var(--fontprima);
+
   }
 
   .img-servço2 {
@@ -155,6 +158,10 @@ header {
     height: 195px;
     margin: auto;
     border-radius: 13px;
+  }
+  .contrato-p {
+    font-size: 20px;
+    font-family: var(--fontprima);
   }
 
 
@@ -182,4 +189,59 @@ header {
   .bt p{
     margin-top: auto;
     margin-bottom:auto;
+    
+  }
+
+
+  .bt2 img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .bt2 p{
+    margin-top: auto;
+    margin-bottom:auto;
+    
+  }
+
+.bt2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, rgb(255, 37, 37), yellow, rgb(255, 27, 141)) ;
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    color: black;
+  }
+  .bt2:hover {
+    scale: 1.1;
+  }
+
+  .container-bt {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  input {
+    margin: auto;
+    border: solid 5px #21ACAD ;
+    border-radius: 15px;
+    display: block;
+    padding: 10px;
+
+  }
+
+  ::placeholder {
+    color: black;
+    font-weight: bolder;
   }
