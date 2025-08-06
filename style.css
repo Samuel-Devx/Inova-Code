@@ -21,7 +21,21 @@ header {
     height: 30em;
     
 }
+.bt-noturno {
+background-color: rgba(255, 255, 255, 0);
+border: none;
+transition: all 0.5s ease;
+}
+.bt-noturno:hover {
+  opacity: 60%;
+}
 
+.bt-noturno img {
+  width: 30px;
+  position: absolute;
+  bottom: 590px;
+  right: 30px;
+}
 .img1top {
     width: 40em;
     height: auto;
@@ -175,6 +189,7 @@ header {
     border: none;
     border-radius: 15px;
     transition: all 0.5s ease;
+    height: auto;
   }
   .bt:hover {
     scale: 1.1;
@@ -194,9 +209,9 @@ header {
 
 
   .bt2 img {
-    width: 40px;
+    width: 80px;
     height: auto;
-    margin: 10px;
+    margin: 5px 2px 5px 5px;
   }
 
   .bt2 p{
@@ -209,13 +224,14 @@ header {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    background-image: linear-gradient(to left, rgb(255, 37, 37), yellow, rgb(255, 27, 141)) ;
+    background-image: linear-gradient(to left,#FEB40B, #FE3D2A, #DC0896, #A510D7) ;
     display: flex;
     padding: 10px;
     border: none;
     border-radius: 15px;
     transition: all 0.5s ease;
     color: black;
+    height: 80px;
   }
   .bt2:hover {
     scale: 1.1;
@@ -233,15 +249,102 @@ header {
   }
 
   input {
-    margin: auto;
+    margin: 50px auto 10px auto;
     border: solid 5px #21ACAD ;
     border-radius: 15px;
     display: block;
     padding: 10px;
+    width: 60%;
+    text-decoration: none;
+    outline: none;
+    height: 20px;
 
   }
 
   ::placeholder {
-    color: black;
+    color: #166060;
     font-weight: bolder;
+    
   }
+
+
+
+ .enviar{
+  background-image: linear-gradient(to top, #21ACAD, rgb(4, 16, 108));
+  width: 100px;
+  margin: 0 auto 30px auto ;
+  display: block;
+  height: 40px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 8px ;
+  transition: all 0.5s ease;
+ }
+
+ .enviar:hover {
+   opacity:80%;
+ }
+
+ 
+ .rd-fundo {
+    background-image: url(imagem/footer.png);
+    height: 60em;
+    background-size: cover;
+ }
+
+ .footer-container {
+  display: flex;
+  padding-top: 20em;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: white;
+}
+
+.creditos {
+  color: white;
+  text-align: center;
+  padding-top: 20em;
+}
+
+.footer-container h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.footer-container li{
+  font-family: var(--fontprima);
+}
+
+
+.footer-container a {
+  color: rgb(2, 65, 67);
+}
+
+.contato {
+  padding: 10px;
+}
+
+.link {
+    padding: 10px;
+}
+
+.dark-mode {
+  background-color: rgb(31, 25, 47);
+  color: rgb(148, 148, 148);
+  
+}
+
+/* Aplica a todos os filhos diretos do body */
+body * {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+
+/* Quando aparece na tela */
+body *._ativo {
+  opacity: 1;
+  transform: translateY(0);
+}
