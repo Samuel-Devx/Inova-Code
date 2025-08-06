@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Fascinate&family=Fjalla+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Pixelify+Sans:wght@400..700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fontprima: font-family: "Mozilla Text", sans-serif;
+    --corprimaria: rgb(53, 9, 9);
+}
 header {
     display: flex;
     flex-wrap: wrap; /* permite quebrar linha se precisar */
@@ -8,6 +18,7 @@ header {
     padding: 30px;
     background-image: linear-gradient(to bottom, #21ACAD, white);
     height: 30em;
+    
 }
 
 .img1top {
@@ -35,13 +46,47 @@ header {
 .text-top p {
     color: rgb(0, 0, 0);
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
+    
 }
 
 
 .sobre  {
-    margin-top: 30%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-}
+    margin: 9em 10px 15em 10px;
+ }
+
+ .sobre h1 {
+    font-size: 25px;
+    
+ }
+
+ .sobre p {
+    font-size: 16px;
+    font-family: var(--fontprima);
+ }
+
+ main {
+    margin-top: 6em;
+ }
+
+ .tl-equipe {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+ }
+
+ .foto-equipe {
+    width: 100%;
+ }
+
+ .text-p {
+ 
+    margin: 50px;
+    text-align: center;
+    font-family: "Mozilla Text", sans-serif;
+ }
+ .p-sobre {
+    font-family: var(--fontprima);
+ }
