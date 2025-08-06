@@ -21,6 +21,7 @@ function envi () {
          pt.style.border = `solid 5px #21ACAD`
         alert(`Sua pergunda foi eniada com sucesso!`)
         
+        
 }
  }
 
