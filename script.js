@@ -19,7 +19,7 @@ function envi () {
     }
     else {
          pt.style.border = `solid 5px #21ACAD`
-        alert(`Sua pergunda foi eniada com sucesso!`)
+        alert(`Sua pergunda foi enviada com sucesso!`)
         
 }
  }
