@@ -18,7 +18,7 @@ O objetivo é servir como uma base para **portfólios, landing pages ou sites in
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 As principais tecnologias aplicadas são:
 
@@ -28,7 +28,7 @@ As principais tecnologias aplicadas são:
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 Inova-Code/
 
 ├── index.html
